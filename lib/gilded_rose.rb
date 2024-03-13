@@ -4,6 +4,8 @@ module GildedRose
     def initalize(quality, days_remaining)
       @quality, @days_remaining = quality, days_remaining
     end
+    def tick
+    end
 class GildedRose
   attr_reader :name, :days_remaining, :quality
 
