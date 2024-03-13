@@ -1,3 +1,9 @@
+module GildedRose
+  class Item 
+    attr_reader :quality, :days_remaining
+    def initalize(quality, days_remaining)
+      @quality, @days_remaining = quality, days_remaining
+    end
 class GildedRose
   attr_reader :name, :days_remaining, :quality
 
